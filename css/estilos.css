@@ -1,0 +1,19 @@
+header {
+  background: #f6b427; }
+
+.logo {
+  display: inline-block; }
+  .logo img {
+    display: inline-block; }
+  .logo p {
+    display: inline-block;
+    color: #ff1e00; }
+
+.menu {
+  display: inline-block; }
+  .menu ul li {
+    display: inline-block; }
+    .menu ul li a {
+      text-decoration: none; }
+
+/*# sourceMappingURL=estilos.css.map */
