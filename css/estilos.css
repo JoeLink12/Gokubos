@@ -1,36 +1,51 @@
 body {
-  background: #ffe0b3;
+  background: #fefede;
   font-family: sans-serif;
   font-size: 16px; }
 
 header {
-  background: #f69727;
-  font-family: impact; }
+  background: #59c2f5;
+  font-family: impact;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center; }
 
 .logo {
-  display: inline-block; }
+  display: flex;
+  align-items: center;
+  margin-left: 2%; }
   .logo img {
-    display: inline-block; }
-  .logo p {
     display: inline-block;
-    color: #ff1e00; }
+    padding: 20px;
+    width: 6rem;
+    height: 6rem; }
 
 .menu {
   display: inline-block;
-  color: #fff; }
+  color: #fff;
+  margin-right: 2%;
+  font-size: 1.3rem; }
   .menu ul li {
-    display: inline-block; }
+    display: inline-block;
+    margin-right: 2rem; }
     .menu ul li a {
-      text-decoration: none; }
+      text-decoration: none;
+      color: #fff; }
+
+.enlaces {
+  display: inline-block; }
 
 .titulo {
-  font-size: 20px; }
+  font-size: 3rem;
+  display: inline-block;
+  color: #f96565; }
 
 .ingresar {
   text-decoration: none;
   color: #fff;
   padding: 15px;
-  background: #ff3939;
+  background: #f96565;
   display: inline-block;
   border-radius: 10px; }
 
@@ -39,17 +54,36 @@ header {
   margin: auto; }
 
 .busqueda {
-  display: block;
-  padding: 10px;
-  right: 0; }
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 10px; }
+
+.busqueda input {
+  margin-right: 0.3rem;
+  width: 10rem;
+  height: 2rem;
+  border-style: none;
+  border-radius: 6px; }
+
+.busqueda i {
+  color: #000;
+  background: #fff;
+  padding: 0.6rem;
+  border-radius: 5px;
+  cursor: pointer; }
 
 .entrada-principal {
   margin: auto;
   width: 100%;
-  background: #fc7044; }
+  background: #f96565; }
 
 .imagen-principal {
   width: 100%; }
+
+.titulo-bloque {
+  text-align: center;
+  padding: 20px; }
 
 .entradas-secundarias {
   display: flex;
@@ -61,7 +95,7 @@ header {
   display: inline-block;
   width: 30%;
   height: 20rem;
-  background: #fc7044;
+  background: #f96565;
   margin-top: 2rem; }
 
 .bloquesitos h3 {
