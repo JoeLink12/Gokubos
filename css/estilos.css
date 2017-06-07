@@ -1,5 +1,9 @@
+body {
+  background: #ffe0b3; }
+
 header {
-  background: #f6b427; }
+  background: #f69727;
+  font-family: impact; }
 
 .logo {
   display: inline-block; }
@@ -10,10 +14,39 @@ header {
     color: #ff1e00; }
 
 .menu {
-  display: inline-block; }
+  display: inline-block;
+  color: #fff; }
   .menu ul li {
     display: inline-block; }
     .menu ul li a {
       text-decoration: none; }
+
+.titulo {
+  font-size: 20px; }
+
+.ingresar {
+  text-decoration: none;
+  color: #fff;
+  padding: 15px;
+  background: #ff3939;
+  display: inline-block;
+  border-radius: 10px; }
+
+.blog {
+  width: 70%;
+  margin: auto; }
+
+.busqueda {
+  display: block;
+  padding: 10px;
+  right: 0; }
+
+.entrada-principal {
+  margin: auto;
+  width: 100%;
+  background: #fc7044; }
+
+.imagen-principal {
+  width: 100%; }
 
 /*# sourceMappingURL=estilos.css.map */
