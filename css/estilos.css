@@ -1,11 +1,11 @@
 body {
-  background: #fefede;
-  font-family: sans-serif;
+  background: #fff;
+  font-family: "Roboto", sans-serif;
   font-size: 16px; }
 
 header {
-  background: #59c2f5;
-  font-family: impact;
+  background-image: url("../img/fondo.jpg");
+  background-color: #196288;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -14,10 +14,11 @@ header {
 .logo {
   display: flex;
   align-items: center;
-  margin-left: 2%; }
+  margin-left: 2%;
+  font-weight: bold; }
   .logo img {
     display: inline-block;
-    padding: 20px;
+    padding: 50px 20px;
     width: 6rem;
     height: 6rem; }
 
@@ -25,33 +26,42 @@ header {
   display: inline-block;
   color: #fff;
   margin-right: 2%;
-  font-size: 1.3rem; }
+  font-size: 1.4rem; }
   .menu ul li {
     display: inline-block;
-    margin-right: 2rem; }
+    margin-right: 1rem;
+    padding: 15px;
+    border-radius: 8px; }
     .menu ul li a {
       text-decoration: none;
       color: #fff; }
+
+.menu li:hover {
+  background: #0261de; }
 
 .enlaces {
   display: inline-block; }
 
 .titulo {
-  font-size: 3rem;
+  font-size: 4rem;
   display: inline-block;
-  color: #f96565; }
+  color: #ff6f13; }
 
 .ingresar {
   text-decoration: none;
   color: #fff;
   padding: 15px;
-  background: #f96565;
   display: inline-block;
-  border-radius: 10px; }
+  border-radius: 8px;
+  background: #e00000; }
+
+.ingresar:hover {
+  background: #c6140c; }
 
 .blog {
   width: 70%;
-  margin: auto; }
+  margin: auto;
+  color: #1c5674; }
 
 .busqueda {
   display: flex;
@@ -67,23 +77,28 @@ header {
   border-radius: 6px; }
 
 .busqueda i {
-  color: #000;
-  background: #fff;
+  color: #fff;
+  background: #1a516e;
   padding: 0.6rem;
   border-radius: 5px;
   cursor: pointer; }
 
+.busqueda i:hover {
+  background: #0261de; }
+
 .entrada-principal {
   margin: auto;
   width: 100%;
-  background: #f96565; }
+  background: rgba(113, 113, 113, 0.26);
+  font-size: 1.7rem; }
 
 .imagen-principal {
   width: 100%; }
 
 .titulo-bloque {
   text-align: center;
-  padding: 20px; }
+  margin: 0 auto;
+  padding: 50px; }
 
 .entradas-secundarias {
   display: flex;
@@ -94,12 +109,21 @@ header {
 .bloquesitos {
   display: inline-block;
   width: 30%;
-  height: 20rem;
-  background: #f96565;
+  height: 23rem;
   margin-top: 2rem; }
 
+.caja-texto {
+  padding-left: 1.7rem; }
+
 .bloquesitos h3 {
-  text-align: center; }
+  font-size: 2rem;
+  margin: 1.2rem auto 0.7rem auto;
+  display: block; }
+
+.bloquesitos p {
+  margin: 0;
+  font-size: 1.4rem;
+  display: block; }
 
 .bloque-imagenes {
   width: 100%;
