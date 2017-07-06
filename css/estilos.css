@@ -9,18 +9,17 @@ header {
 .logo {
   display: flex;
   align-items: center;
-  margin-left: 2%;
+  margin-left: 3%;
   font-weight: bold; }
   .logo img {
     display: inline-block;
-    padding: 50px 20px;
     width: 6rem;
     height: 6rem; }
 
 .menu {
   display: inline-block;
   color: #fff;
-  margin-right: 2%;
+  margin-right: 3%;
   font-size: 1.4rem; }
   .menu ul li {
     display: inline-block;
@@ -40,7 +39,8 @@ header {
 .titulo {
   font-size: 4rem;
   display: inline-block;
-  color: #ff6f13; }
+  color: #ff6f13;
+  margin-left: 20px; }
 
 .ingresar {
   text-decoration: none;
@@ -53,31 +53,14 @@ header {
 .ingresar:hover {
   background: #c6140c; }
 
+.busqueda {
+  margin-top: 15px; }
+
+.icono-busqueda {
+  margin-top: 20px; }
+
 .blog {
   color: #1c5674; }
-
-.busqueda {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  padding: 10px; }
-
-.busqueda input {
-  margin-right: 0.3rem;
-  width: 10rem;
-  height: 2rem;
-  border-style: none;
-  border-radius: 6px; }
-
-.busqueda i {
-  color: #fff;
-  background: #1a516e;
-  padding: 0.6rem;
-  border-radius: 5px;
-  cursor: pointer; }
-
-.busqueda i:hover {
-  background: #0261de; }
 
 .titulo-bloque {
   text-align: center;
@@ -116,5 +99,25 @@ header {
 .imagen {
   width: 100%;
   height: 100%; }
+
+@media (max-width: 600px) {
+  .menu {
+    font-size: 1.1rem; }
+    .menu ul li {
+      display: inline-block;
+      margin-right: 0.5rem;
+      padding: 10px;
+      border-radius: 8px; } }
+@media (max-width: 910px) {
+  .logo {
+    width: 100%;
+    display: inline;
+    text-align: center; }
+
+  .menu {
+    margin-right: 0%;
+    width: 100%;
+    display: inline;
+    text-align: center; } }
 
 /*# sourceMappingURL=estilos.css.map */
